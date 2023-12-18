@@ -1,0 +1,19 @@
+CARS_DETAILS
+
+id - BIGINT - UNISIGNED - PRIMARY_KEY(NOTNULL - UNIQUE) - AUTOINCREMENT;
+model - VARCHAR(255) - NOTNULL;
+brand - VARCHAR(255) - NOTNULL;
+production_year - YEAR - NOTNULL;
+seller - VARCHAR(255) - NOTNULL;
+price - DECIMAL(9,2) - NOTNULL;
+photo - VARCHAR(255) - NULL;
+general_description - TEXT - NULL;
+country_of_immatricolation - VARCHAR(255) - NOTNULL;
+type_of_fuel - VARCHAR(255) - NOTNULL;
+transmission - VARCHAR(255) - NOTNULL;
+odometer - DECIMAL(9,3) - NOTNULL - DEFAULT(0);
+engine_cc - SMALLINT - UNSIGNED- NULL;
+power_in_kW -> SMALLINT - UNSIGNED- NULL;
+condition - VARCHAR(255) - NOTNULL;
+dimension - VARCHAR(255) - NULL;
+weight_kg - MEDIUMINT - UNSIGNED - NULL;
